@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reserva tu cita — Arte Francés Centro de Belleza, Cali</title>
+<meta name="description" content="Agenda tu experiencia en Arte Francés Cali en 3 pasos: elige tu ritual, tu sede y tu fecha y hora. Te confirmamos por teléfono al (2) 668 4445.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%232B0A2E'/><text x='50' y='66' font-size='44' text-anchor='middle' fill='%23D9A441' font-family='Georgia'>AF</text></svg>">
+</head>
+<body>
+<div class="topbar"><div class="wrap"><span>Av. 6N 23DN-40, Cali · (2) 668 4445</span><span>Lun–Sáb 8:00–19:00 · Dom 9:00–18:00</span></div></div>
+<header class="site-header"><div class="wrap header-inner">
+  <a class="brand" href="index.html" aria-label="Arte Francés — Inicio"><span class="brand-mark">AF</span><span><span class="brand-name">Arte Francés</span><br><span class="brand-sub">Centro de Belleza · Cali</span></span></a>
+  <nav class="main-nav" aria-label="Navegación principal">
+    <a href="index.html">Inicio</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="reserva.html" class="active" aria-current="page">Reserva tu cita</a>
+    <a href="sedes.html">Sedes</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+  <a class="btn btn-coral header-cta" href="reserva.html">Reserva tu cita</a>
+</div></header>
+
+<main>
+<section class="hero" style="padding-top:clamp(2.6rem,5vw,4rem)">
+  <div class="wrap">
+    <p class="eyebrow">Concierge digital · Cali haute coiffure</p>
+    <h1>Agenda tu <em>experiencia</em></h1>
+    <p class="lead" style="margin-top:1rem">Elige tu ritual, selecciona tu horario preferido y asegura tu momento de bienestar en el salón de Cali.</p>
+  </div>
+</section>
+
+<section data-booking>
+  <div class="wrap">
+    <div class="stepper" role="list" aria-label="Pasos de la reserva">
+      <div class="step active" data-step-item role="listitem"><span class="step-dot">1</span>Ritual &amp; servicio</div>
+      <div class="step" data-step-item role="listitem"><span class="step-dot">2</span>Sede &amp; especialista</div>
+      <div class="step" data-step-item role="listitem"><span class="step-dot">3</span>Fecha, hora &amp; datos</div>
+    </div>
+
+    <div class="booking-layout">
+      <div>
+        <!-- PASO 1 -->
+        <div class="step-panel" id="step1">
+          <p class="eyebrow">Paso 01 de 03 · Fase 1 de 3</p>
+          <h2>Selecciona servicio y ritual</h2>
+          <div class="opt-grid" role="radiogroup" aria-label="Elige tu ritual">
+            <button type="button" class="opt-card selected" data-opt-service="corte"><span class="opt-check">✓</span><span class="opt-cat">Peluquería</span><h3>El Corte Arte</h3><p>Visagismo, lavado botánico con masaje capilar, corte de autor y secado con movimiento.</p><p class="opt-price">Valor: a confirmar con el salón</p></button>
+            <button type="button" class="opt-card" data-opt-service="color"><span class="opt-check">✓</span><span class="opt-cat">Técnica francesa</span><h3>Color Francés &amp; Balayage</h3><p>Aclaración a mano alzada sin demarcaciones agresivas y baño de brillo protector.</p><p class="opt-price">Valor: a confirmar con el salón</p></button>
+            <button type="button" class="opt-card" data-opt-service="piel"><span class="opt-check">✓</span><span class="opt-cat">Dermocosmética</span><h3>Ritual de Piel &amp; Facial</h3><p>Higiene profunda, exfoliación enzimática adaptada al clima cálido de Cali y mascarilla reafirmante.</p><p class="opt-price">Valor: a confirmar con el salón</p></button>
+            <button type="button" class="opt-card" data-opt-service="manos"><span class="opt-check">✓</span><span class="opt-cat">Manos &amp; pies</span><h3>Manicura &amp; Pedicure Spa</h3><p>Limpieza de cutícula, exfoliación con extractos botánicos, esmaltado semipermanente y nutrición.</p><p class="opt-price">Valor: a confirmar con el salón</p></button>
+          </div>
+          <div class="step-actions"><button type="button" class="btn btn-coral" data-goto="1">Continuar a sedes →</button></div>
+        </div>
+
+        <!-- PASO 2 -->
+        <div class="step-panel" id="step2" hidden>
+          <p class="eyebrow">Paso 02 de 03 · Fase 2 de 3</p>
+          <h2>Selecciona sede y especialista</h2>
+          <div class="opt-grid" role="radiogroup" aria-label="Elige tu sede" style="margin-bottom:1.6rem">
+            <button type="button" class="opt-card selected" data-opt-sede="principal"><span class="opt-check">✓</span><span class="opt-cat">Sede principal</span><h3>Avenida 6N</h3><p>Av. 6N 23DN-40, Cali · Tel: (2) 668 4445</p><p class="opt-price">Sede verificada</p></button>
+            <button type="button" class="opt-card" data-opt-sede="sur"><span class="opt-check">✓</span><span class="opt-cat">Dirección por confirmar</span><h3>Sede Sur — Cali</h3><p>Atención especializada en el sur de Cali. Próximamente reserva directa y mapa de ubicación.</p><p class="opt-price">Próximamente</p></button>
+            <button type="button" class="opt-card" data-opt-sede="oeste"><span class="opt-check">✓</span><span class="opt-cat">Dirección por confirmar</span><h3>Sede Oeste — Cali</h3><p>Espacio de bienestar en el oeste caleño. Próximamente detalles de localización.</p><p class="opt-price">Próximamente</p></button>
+          </div>
+          <h3 style="font-size:1.1rem;margin-bottom:.8rem">Preferencia de profesional</h3>
+          <div class="opt-grid" role="radiogroup" aria-label="Preferencia de profesional">
+            <button type="button" class="opt-card selected" data-opt-pro="Primer disponible"><span class="opt-check">✓</span><span class="opt-cat">Recomendado</span><h3>Primer disponible</h3><p>Mayor flexibilidad de horarios.</p></button>
+            <button type="button" class="opt-card" data-opt-pro="Estilista"><span class="opt-check">✓</span><span class="opt-cat">Estilismo</span><h3>Estilista</h3><p>Corte y estilismo.</p></button>
+            <button type="button" class="opt-card" data-opt-pro="Colorista"><span class="opt-check">✓</span><span class="opt-cat">Color</span><h3>Colorista</h3><p>Técnica de color y balayage.</p></button>
+          </div>
+          <div class="step-actions"><button type="button" class="btn btn-ghost" data-goto="0">← Atrás</button><button type="button" class="btn btn-coral" data-goto="2">Continuar a horarios →</button></div>
+        </div>
+
+        <!-- PASO 3 -->
+        <div class="step-panel" id="step3" hidden>
+          <p class="eyebrow">Paso 03 de 03 · Fase 3 de 3</p>
+          <h2>Selecciona fecha y horario</h2>
+          <form id="booking-form" novalidate>
+            <h3 style="font-size:1.1rem;margin-bottom:.8rem">Selecciona día de preferencia</h3>
+            <div class="date-chips" data-date-chips></div>
+            <div data-slots></div>
+            <p style="font-size:.85rem;color:var(--muted);margin-bottom:1.4rem">Zona horaria: COT (Colombia). Horarios del salón: Lun–Sáb 8:00–19:00 · Dom 9:00–18:00.</p>
+            <h3 style="font-size:1.1rem;margin-bottom:.8rem">Tus datos de contacto</h3>
+            <div class="field"><label for="bk-name">Nombre completo *</label><input id="bk-name" name="nombre" type="text" placeholder="Tu nombre" autocomplete="name"><p class="error-msg">Escribe tu nombre completo.</p></div>
+            <div class="field"><label for="bk-phone">Celular *</label><input id="bk-phone" name="celular" type="tel" placeholder="Tu celular" autocomplete="tel"><p class="error-msg">Escribe un número de celular válido.</p></div>
+            <div class="field"><label for="bk-email">Correo electrónico (opcional)</label><input id="bk-email" name="correo" type="email" placeholder="tu@correo.com" autocomplete="email"><p class="error-msg">Revisa el formato del correo.</p></div>
+            <p class="form-error" id="bk-error" role="alert"></p>
+            <div class="step-actions"><button type="button" class="btn btn-ghost" data-goto="1">← Atrás</button><button type="submit" class="btn btn-coral">Confirmar cita ahora</button></div>
+          </form>
+        </div>
+
+        <!-- CONFIRMACIÓN -->
+        <div class="step-panel" id="confirm" hidden>
+          <div class="confirm-box">
+            <div class="big-check">✓</div>
+            <p class="eyebrow">Reserva registrada exitosamente</p>
+            <h2 style="margin:.5rem 0">¡Tu cita está <em>programada!</em></h2>
+            <p class="lead" style="margin:0 auto">Guarda tu código de reserva y espera nuestra llamada de confirmación.</p>
+            <p style="font-family:var(--label);letter-spacing:.18em;text-transform:uppercase;font-size:.78rem;color:var(--muted);margin-top:1.4rem">Código de reserva</p>
+            <div class="confirm-code" id="cf-code">AF-2026-0000</div>
+            <div class="confirm-summary">
+              <div class="summary-row"><span>Ritual elegido</span><span id="cf-service">—</span></div>
+              <div class="summary-row"><span>Sede</span><span id="cf-sede">—</span></div>
+              <div class="summary-row"><span>Fecha &amp; hora</span><span id="cf-date">—</span></div>
+              <div class="summary-row"><span>Titular</span><span id="cf-name">—</span></div>
+            </div>
+            <p style="margin-top:1.2rem"><b>Compromiso Arte Francés:</b> Te confirmamos por teléfono al <a href="tel:+5726684445" style="color:var(--coral-dark)">(2) 668 4445</a> para ultimar los detalles de tu visita.</p>
+            <div class="step-actions" style="justify-content:center"><button type="button" class="btn btn-plum" onclick="window.print()">Imprimir comprobante</button><button type="button" class="btn btn-ghost" id="book-again">Agendar otra cita</button></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RESUMEN -->
+      <aside class="summary" aria-label="Resumen de tu visita">
+        <h3>Resumen de tu visita</h3>
+        <div class="summary-row"><span>Ritual</span><span data-sum-service>El Corte Arte</span></div>
+        <div class="summary-row"><span>Sede</span><span data-sum-sede>Sede Principal — Avenida 6N</span></div>
+        <div class="summary-row"><span>Fecha</span><span data-sum-date>—</span></div>
+        <div class="summary-row"><span>Hora estimada</span><span data-sum-time>—</span></div>
+        <div class="summary-row"><span>Valor</span><span>A confirmar con el salón</span></div>
+        <p style="margin-top:1rem;font-size:.9rem;color:#dcc9d2">Pago directo en recepción del salón al culminar el ritual.</p>
+        <div class="call-box">
+          <h4 style="font-family:var(--label);letter-spacing:.14em;text-transform:uppercase;font-size:.82rem;margin-bottom:.4rem">¿Dudas o reserva telefónica?</h4>
+          <p style="font-size:.92rem;color:#e9d9c9">Si requieres asesoría para novias o atención para grupos familiares, comunícate directamente con nuestro equipo en Cali.</p>
+          <p style="margin-top:.7rem"><a href="tel:+5726684445">Llamar al (2) 668 4445 →</a></p>
+          <p style="margin-top:.4rem"><a href="mailto:servicioalcliente@artefrances.com">servicioalcliente@artefrances.com →</a></p>
+        </div>
+        <p style="margin-top:1.1rem;font-size:.85rem;color:#dcc9d2">Horario de atención · Lun–Sáb: 8:00 – 19:00 · Dom y festivos: 9:00 – 18:00</p>
+        <p style="margin-top:.8rem;font-size:.8rem;color:#b89aa8">Demostración interactiva: en producción, la cita genera confirmación por teléfono y correo con recordatorio.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div><p class="footer-brand">Arte Francés</p><p style="margin-top:.7rem">Haute coiffure, rituales capilares de vanguardia y estética exclusiva inspirada en el glamour tropical del Valle del Cauca y el savoir-faire parisino.</p><p style="margin-top:.9rem;color:var(--gold)">4.2 ★ · Más de 500 reseñas en Cali</p></div>
+      <div><h4>Navegación</h4><ul><li><a href="index.html">Inicio</a></li><li><a href="servicios.html">Servicios de salón &amp; spa</a></li><li><a href="reserva.html">Reserva tu cita online</a></li><li><a href="sedes.html">Nuestras sedes Cali</a></li><li><a href="contacto.html">Contacto &amp; PQR</a></li></ul></div>
+      <div><h4>Sede principal Cali</h4><ul><li>Avenida 6N 23DN-40, Cali 760046</li><li><a href="tel:+5726684445">(2) 668 4445</a></li><li><a href="mailto:servicioalcliente@artefrances.com">servicioalcliente@artefrances.com</a></li><li><a href="https://www.facebook.com/ArteFrancesCentrodeBelleza" rel="noopener">Facebook · ArteFrancesCentrodeBelleza</a></li></ul></div>
+      <div><h4>Horarios</h4><ul><li>Lunes a sábado<br><b style="color:var(--cream)">8:00 – 19:00</b></li><li>Domingos &amp; festivos<br><b style="color:var(--cream)">9:00 – 18:00</b></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>BELPRO S.A.S · NIT 900.774.886-4</span><span>© 2026 Arte Francés Centro de Belleza · Todos los derechos reservados</span><span><a href="contacto.html">Términos &amp; Condiciones</a> · <a href="contacto.html">Política de Privacidad</a></span></div>
+    <p class="demo-credit">Sitio demo creado por Tiyan Digital — propuesta de rediseño web en 72 horas.</p>
+  </div>
+</footer>
+<a class="btn btn-coral sticky-reserva" href="reserva.html">Reservar</a>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto — Arte Francés Centro de Belleza, Cali</title>
+<meta name="description" content="Comunícate con Arte Francés Cali: teléfono (2) 668 4445, correo servicioalcliente@artefrances.com, sede principal Avenida 6N 23DN-40. Horarios Lun–Sáb 8:00–19:00.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%232B0A2E'/><text x='50' y='66' font-size='44' text-anchor='middle' fill='%23D9A441' font-family='Georgia'>AF</text></svg>">
+</head>
+<body>
+<div class="topbar"><div class="wrap"><span>Av. 6N 23DN-40, Cali · (2) 668 4445</span><span>Lun–Sáb 8:00–19:00 · Dom 9:00–18:00</span></div></div>
+<header class="site-header"><div class="wrap header-inner">
+  <a class="brand" href="index.html" aria-label="Arte Francés — Inicio"><span class="brand-mark">AF</span><span><span class="brand-name">Arte Francés</span><br><span class="brand-sub">Centro de Belleza · Cali</span></span></a>
+  <nav class="main-nav" aria-label="Navegación principal">
+    <a href="index.html">Inicio</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="reserva.html">Reserva tu cita</a>
+    <a href="sedes.html">Sedes</a>
+    <a href="contacto.html" class="active" aria-current="page">Contacto</a>
+  </nav>
+  <a class="btn btn-coral header-cta" href="reserva.html">Reserva tu cita</a>
+</div></header>
+
+<main>
+<section class="hero" style="padding-top:clamp(2.6rem,5vw,4rem)">
+  <div class="wrap">
+    <p class="eyebrow">Concierge &amp; atención exclusiva · Cali</p>
+    <h1>Estamos aquí para <em>escucharte</em></h1>
+    <p class="lead" style="margin-top:1rem">Comunícate con nuestro equipo en Cali para citas especiales, eventos o dudas sobre nuestros tratamientos. Hospitalidad vallecaucana y alta peluquería francesa.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="contact-cards">
+      <article class="contact-card reveal"><span class="num">01</span><h3>Llamar ahora</h3><p>Línea telefónica directa · Conmutador central, sede Avenida 6N.</p><p style="margin-top:.8rem"><a href="tel:+5726684445">(2) 668 4445 →</a></p></article>
+      <article class="contact-card reveal"><span class="num">02</span><h3>Escribir</h3><p>Servicio al cliente &amp; PQR · Atención personalizada y cotizaciones.</p><p style="margin-top:.8rem"><a href="mailto:servicioalcliente@artefrances.com">servicioalcliente@artefrances.com →</a></p></article>
+      <article class="contact-card reveal"><span class="num">03</span><h3>Sede principal</h3><p>Dirección oficial en Cali · Avenida 6N 23DN-40, Cali · Valle del Cauca · Código postal 760046 · BELPRO S.A.S · NIT 900.774.886-4.</p><p style="margin-top:.8rem"><a href="sedes.html">Ver sedes →</a></p></article>
+    </div>
+
+    <div class="contact-layout">
+      <div class="reveal">
+        <p class="eyebrow">Reserva especial o consulta</p>
+        <h2 style="margin:.4rem 0 .8rem">Escríbenos <em>directamente</em></h2>
+        <p class="lead" style="margin-bottom:1.6rem">Diligencia el formulario y nuestro equipo te responderá en el menor tiempo posible.</p>
+        <form id="contact-form" novalidate>
+          <div class="field"><label for="ct-name">Nombre completo *</label><input id="ct-name" type="text" placeholder="Tu nombre" autocomplete="name"><p class="error-msg">Escribe tu nombre completo.</p></div>
+          <div class="field"><label for="ct-phone">Teléfono / celular *</label><input id="ct-phone" type="tel" placeholder="Tu celular" autocomplete="tel"><p class="error-msg">Escribe un número de teléfono válido.</p></div>
+          <div class="field"><label for="ct-email">Correo electrónico *</label><input id="ct-email" type="email" placeholder="tu@correo.com" autocomplete="email"><p class="error-msg">Revisa el formato del correo.</p></div>
+          <div class="field"><label for="ct-motivo">Motivo de consulta *</label>
+            <select id="ct-motivo">
+              <option value="">Elige un motivo…</option>
+              <option value="reserva">Reserva especial o VIP</option>
+              <option value="servicios">Pregunta sobre servicios o tarifas</option>
+              <option value="eventos">Eventos corporativos o nupciales (novias)</option>
+              <option value="pqr">Sugerencia / PQR</option>
+              <option value="otro">Otro requerimiento</option>
+            </select><p class="error-msg">Elige un motivo de consulta.</p></div>
+          <div class="field"><label for="ct-msg">Mensaje detallado *</label><textarea id="ct-msg" rows="5" placeholder="Cuéntanos la fecha estimada, el servicio deseado o cualquier solicitud especial para tu experiencia…"></textarea><p class="error-msg">Cuéntanos un poco más sobre tu consulta.</p></div>
+          <div class="check-row field" style="margin-bottom:1.2rem"><input id="ct-consent" type="checkbox"><label for="ct-consent" style="text-transform:none;letter-spacing:0;font-family:var(--sans);font-weight:400;font-size:.92rem;color:var(--muted)">Autorizo el tratamiento de mis datos personales de acuerdo con la política de privacidad de BELPRO S.A.S para la gestión de mi consulta. *</label></div>
+          <p class="form-error" id="ct-error" role="alert"></p>
+          <button type="submit" class="btn btn-coral btn-block">Enviar mensaje</button>
+        </form>
+        <div class="gracias" id="contact-gracias" hidden>
+          <div class="big-check">✓</div>
+          <h3>¡Gracias, <span id="ct-gracias-name">amiga</span>!</h3>
+          <p class="lead" style="margin:0 auto">Tu mensaje fue enviado. Nuestro equipo en Cali te responderá lo antes posible. Si prefieres, también puedes llamarnos al <a href="tel:+5726684445" style="color:var(--coral-dark);font-weight:700">(2) 668 4445</a>.</p>
+          <p style="margin-top:1.4rem"><button type="button" class="btn btn-ghost" id="contact-again">Enviar otro mensaje</button></p>
+        </div>
+      </div>
+
+      <aside class="side-panel reveal">
+        <p class="eyebrow">Disponibilidad en sala</p>
+        <h3>Horarios de atención</h3>
+        <table class="hours-table">
+          <tr><td>Lunes a sábado<br><small>Jornada continua</small></td><td>8:00 – 19:00</td></tr>
+          <tr><td>Domingos<br><small>Atención dominical</small></td><td>9:00 – 18:00</td></tr>
+          <tr><td>Días festivos<br><small>Sujeto a confirmación previa</small></td><td>Bajo cita</td></tr>
+        </table>
+        <p style="margin-top:1.2rem;font-size:.92rem;color:#dcc9d2">Para tratamientos químicos y novias, te recomendamos reservar con antelación. Confirma disponibilidad al <a href="tel:+5726684445" style="color:var(--gold);font-weight:700">(2) 668 4445</a>.</p>
+        <div style="margin-top:1.4rem;border-top:1px solid rgba(246,237,227,.18);padding-top:1.2rem">
+          <p class="eyebrow">Comunidad digital Cali</p>
+          <h3 style="font-size:1.2rem;margin:.4rem 0">Síguenos en nuestras redes oficiales</h3>
+          <p style="font-size:.92rem;color:#dcc9d2">Inspírate con nuestras transformaciones en balayage, tendencias de corte y promociones de temporada.</p>
+          <p style="margin-top:.9rem"><a class="btn btn-coral" href="https://www.facebook.com/ArteFrancesCentrodeBelleza" target="_blank" rel="noopener">Facebook oficial →</a></p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ARTE TIPS -->
+<section style="background:var(--sand)">
+  <div class="wrap">
+    <div class="section-head reveal"><p class="eyebrow">Arte Tips · Blog &amp; conocimiento experto</p><h2>Secretos de <em>belleza &amp; cuidado</em></h2><p class="lead">Artículos de nuestros estilistas para mantener la vitalidad de tu cabello y tu estilo de vida en Cali.</p></div>
+    <div class="tips-grid">
+      <article class="tip-card reveal"><p class="tip-cat">Corte &amp; movimiento · Lectura de 3 min</p><h3>Cortes en capas: el secreto para dar volumen y movimiento a tu melena</h3><p class="tip-read"><a href="https://artefrances.com/conoce-las-ventajas-y-beneficios-de-los-cortes-de-cabello-en-capas/" target="_blank" rel="noopener" style="color:var(--coral-dark)">Leer artículo en artefrances.com →</a></p></article>
+      <article class="tip-card reveal"><p class="tip-cat">Familia &amp; niños · Lectura de 4 min</p><h3>El primer corte del bebé: consejos para una experiencia tranquila y memorable</h3><p class="tip-read"><a href="https://artefrances.com/sabes-cuando-cortar-el-cabello-de-tu-bebe-por-primera-vez/" target="_blank" rel="noopener" style="color:var(--coral-dark)">Leer artículo en artefrances.com →</a></p></article>
+      <article class="tip-card reveal"><p class="tip-cat">Colorimetría senior · Lectura de 5 min</p><h3>Canas con estilo: técnicas de matización e iluminación para lucirlas con orgullo</h3><p class="tip-read"><a href="https://artefrances.com/luce-tus-canas-con-mucho-estilo/" target="_blank" rel="noopener" style="color:var(--coral-dark)">Leer artículo en artefrances.com →</a></p></article>
+      <article class="tip-card reveal"><p class="tip-cat">Gala &amp; festividades · Lectura de 3 min</p><h3>Tendencias y peinados para celebraciones y temporada de Halloween</h3><p class="tip-read"><a href="https://artefrances.com/tenemos-a-halloween-entre-manos/" target="_blank" rel="noopener" style="color:var(--coral-dark)">Leer artículo en artefrances.com →</a></p></article>
+    </div>
+  </div>
+</section>
+
+<!-- MAPA -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="map-card reveal">
+      <div>
+        <p class="eyebrow">Visítanos</p>
+        <h2 style="margin:.4rem 0 .8rem">Avenida 6N 23DN-40, <em>Cali</em></h2>
+        <p class="lead">Sede principal de Arte Francés Centro de Belleza, en Santiago de Cali, Valle del Cauca.</p>
+        <p style="margin-top:1.2rem"><a class="btn btn-plum" href="https://www.google.com/maps/search/?api=1&amp;query=Avenida+6N+23DN-40+Cali" target="_blank" rel="noopener">Abrir en Google Maps →</a></p>
+      </div>
+      <figure><img src="assets/img/salon.jpg" alt="Interior del salón Arte Francés en Avenida 6N" width="1920" height="1280" loading="lazy"><span class="ai-tag">Imagen de demostración — generada por IA</span></figure>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap reveal">
+    <p class="eyebrow">Reserva rápida</p>
+    <h2>¿Lista para tu próxima <em>transformación?</em></h2>
+    <p class="lead" style="margin:0 auto 1.6rem">Agenda tu cita seleccionando tu servicio, sede y horario.</p>
+    <a class="btn btn-coral" href="reserva.html">Reservar cita online</a>
+    <a class="btn btn-ghost" href="tel:+5726684445">Llamar al (2) 668 4445</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div><p class="footer-brand">Arte Francés</p><p style="margin-top:.7rem">Haute coiffure, rituales capilares de vanguardia y estética exclusiva inspirada en el glamour tropical del Valle del Cauca y el savoir-faire parisino.</p><p style="margin-top:.9rem;color:var(--gold)">4.2 ★ · Más de 500 reseñas en Cali</p></div>
+      <div><h4>Navegación</h4><ul><li><a href="index.html">Inicio</a></li><li><a href="servicios.html">Servicios de salón &amp; spa</a></li><li><a href="reserva.html">Reserva tu cita online</a></li><li><a href="sedes.html">Nuestras sedes Cali</a></li><li><a href="contacto.html">Contacto &amp; PQR</a></li></ul></div>
+      <div><h4>Sede principal Cali</h4><ul><li>Avenida 6N 23DN-40, Cali 760046</li><li><a href="tel:+5726684445">(2) 668 4445</a></li><li><a href="mailto:servicioalcliente@artefrances.com">servicioalcliente@artefrances.com</a></li><li><a href="https://www.facebook.com/ArteFrancesCentrodeBelleza" rel="noopener">Facebook · ArteFrancesCentrodeBelleza</a></li></ul></div>
+      <div><h4>Horarios</h4><ul><li>Lunes a sábado<br><b style="color:var(--cream)">8:00 – 19:00</b></li><li>Domingos &amp; festivos<br><b style="color:var(--cream)">9:00 – 18:00</b></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>BELPRO S.A.S · NIT 900.774.886-4</span><span>© 2026 Arte Francés Centro de Belleza · Todos los derechos reservados</span><span><a href="contacto.html">Términos &amp; Condiciones</a> · <a href="contacto.html">Política de Privacidad</a></span></div>
+    <p class="demo-credit">Sitio demo creado por Tiyan Digital — propuesta de rediseño web en 72 horas.</p>
+  </div>
+</footer>
+<a class="btn btn-coral sticky-reserva" href="reserva.html">Reservar</a>
+<script src="app.js"></script>
+</body>
+</html>
